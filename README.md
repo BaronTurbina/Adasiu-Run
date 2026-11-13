@@ -1,29 +1,33 @@
 # ADASIU RUN — Meat Factory Edition
 
-Lekka gra typu endless runner działająca w przeglądarce. Nie wymaga instalowania bibliotek ani serwera.
-
-## Sterowanie
-- **Spacja**, **↑** lub **W** — skok.
-- Kliknięcie/tapnięcie planszy albo przycisku **SKOK** — skok.
-- **Esc** lub przycisk **Ⅱ** — pauza.
-
-## Przeszkody
-- czerwone skrzynki E2 z mięsem,
-- latające kotlety,
-- latające kiełbasy.
-
-Gra ma trzy życia, wynik, rekord zapisywany w pamięci przeglądarki oraz stopniowo rosnącą prędkość.
-
-## Publikacja na GitHub Pages
-1. Zaloguj się na GitHub i utwórz nowe repozytorium, np. `adasiu-run`.
-2. Wgraj **całą zawartość** tego folderu (plik `index.html`, `style.css`, `game.js`, `README.md` oraz folder `assets`). Nie wgrywaj samego ZIP-a.
-3. W repozytorium otwórz **Settings → Pages**.
-4. W sekcji **Build and deployment** wybierz **Deploy from a branch**.
-5. Ustaw branch `main` i folder `/ (root)`, następnie kliknij **Save**.
-6. Po chwili gra będzie dostępna pod adresem `https://TWOJ_LOGIN.github.io/adasiu-run/`.
+Przeglądarkowa gra typu endless runner w klimacie zakładu przetwórstwa mięsnego. W grze Adasiu przeskakuje czerwone skrzynki E2 i unika latających kotletów oraz kiełbas.
 
 ## Uruchomienie lokalne
-Otwórz `index.html` w przeglądarce. Do gry nie jest wymagany serwer.
 
-## Personalizacja
-Zdjęcie twarzy znajduje się w `assets/adasiu-face.png`. Możesz je podmienić, zachowując tę samą nazwę pliku. Gra rysuje ciało postaci i animuje otwieranie ust podczas skoku.
+Otwórz `index.html` w przeglądarce. Gra nie wymaga instalacji ani serwera.
+
+## Sterowanie
+
+- `Spacja`, `↑` lub `W` — skok.
+- Kliknięcie/tapnięcie planszy — skok.
+- Przycisk `SKOK` na telefonie — skok.
+- `Esc` lub przycisk pauzy — pauza.
+
+## Publikacja na GitHub Pages
+
+1. Rozpakuj archiwum ZIP.
+2. Wejdź do repozytorium GitHub `Adasiu-Run`.
+3. W zakładce **Code** wybierz **Add file → Upload files** (jeśli repo jest puste, kliknij link **uploading an existing file**).
+4. Wgraj zawartość folderu `adasiu-run` — plik `index.html`, `game.js`, `style.css` i folder `assets`.
+5. Zatwierdź przez **Commit changes**.
+6. Wejdź w **Settings → Pages**.
+7. Ustaw **Deploy from a branch**, branch `main`, folder `/ (root)`, kliknij **Save**.
+8. Po publikacji strona będzie dostępna pod adresem `https://baronturbina.github.io/Adasiu-Run/`.
+
+## Grafiki
+
+- `assets/factory-background.jpg` — fotograficzne tło hali produkcyjnej.
+- `assets/adasiu-face.png` — portret używany jako twarz bohatera.
+- `assets/sausage.png` i `assets/cutlet.png` — grafiki latających przeszkód.
+
+Rekord jest zapisywany lokalnie w przeglądarce (`localStorage`).
