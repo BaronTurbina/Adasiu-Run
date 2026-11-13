@@ -1,19 +1,19 @@
-# ADASIU RUN — Meat Factory Edition
+# ADASIU RUN 4.0 — Meat Factory Edition
 
-Grywalny endless runner na GitHub Pages.
+Ta paczka zawiera odświeżoną oprawę, fotograficzną głowę użytkownika z oryginalnego zdjęcia, większą głowę dopasowaną do sylwetki, oddzielne pozy biegu i skoku oraz podwójny skok.
+
+## Aktualizacja repozytorium
+1. Rozpakuj ZIP.
+2. Otwórz `https://github.com/BaronTurbina/Adasiu-Run`.
+3. Wybierz **Add file → Upload files**.
+4. Przeciągnij zawartość folderu `adasiu-run` do katalogu głównego repozytorium.
+5. Zatwierdź **Commit changes**.
+6. Poczekaj na publikację GitHub Pages, następnie odśwież stronę przez `Ctrl+F5`.
+
+Pliki graficzne mają nowe nazwy `*-v4`, żeby przeglądarka nie wyświetlała poprzedniej wersji z pamięci podręcznej.
 
 ## Sterowanie
-- Spacja / strzałka ↑ / kliknięcie: skok
-- Drugie naciśnięcie w powietrzu: drugi skok
-- Drugi raz w powietrzu: podwójny skok
-- Esc lub przycisk pauzy: pauza
-- Rekord zapisywany lokalnie w przeglądarce
-
-## Publikacja
-Wgraj całą zawartość folderu `adasiu-run` do głównego katalogu repozytorium. W GitHub: Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save. GitHub Pages publikuje pliki statyczne, a `index.html` musi leżeć w katalogu głównym źródła publikacji.
-
-## Zawartość
-- `index.html` — ekran gry i HUD
-- `style.css` — interfejs responsywny
-- `game.js` — mechanika, przeszkody, kolizje, podwójny skok
-- `assets/` — tło hali, twarz bohatera, sprite'y, kiełbasy i kotlety
+- Spacja lub ↑: skok; drugie naciśnięcie w powietrzu: podwójny skok.
+- ← / →: ruch.
+- P / Escape: pauza.
+- Telefon: przycisk SKOK / 2× SKOK.
